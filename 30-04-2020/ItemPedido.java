@@ -3,12 +3,13 @@ package testapedido;
 public class ItemPedido {
     
     private int quantidade;
-    private final int quatidade;
+    private final Produto produto;
     
     
     
     public ItemPedido (int quatidade, Produto produto){
-        this.quatidade = quatidade;
+        this.quantidade = quantidade;
+        this.produto = produto; 
           
     }
 }
