@@ -7,6 +7,7 @@ public class TestaPedido {
     public static void main(String[] args) {
    
         Scanner sc = new Scanner(System.in);
+        Produto P1[] = new Produto[10];
         
         int opcao = 0;
         
