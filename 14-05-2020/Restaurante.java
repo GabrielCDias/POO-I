@@ -232,7 +232,7 @@ public class Restaurante extends javax.swing.JFrame {
         }
         
         else {
-            custoTotal = consumoTotal * couvert;
+            custoTotal = consumoTotal + couvert;
             custoPessoa = custoTotal / pessoas;
         
             
